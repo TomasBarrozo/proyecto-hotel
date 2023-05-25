@@ -110,11 +110,15 @@ body{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("images/hotel-entrada.jpg");
+    ,url("/images/hotel-entrada.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     }
+
+#banner h1{
+        font-size: 3em
+}
 
 #banner button{
     font-size: 1.4em;
@@ -135,7 +139,7 @@ body{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("images/restaurante.jpg");
+    ,url("/images/restaurante.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -157,7 +161,7 @@ body{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("images/info.jpg");
+    ,url("/images/info.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -180,7 +184,7 @@ body{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("images/hab.jpg");
+    ,url("/images/hab.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -203,7 +207,7 @@ body{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("images/contact.jpg");
+    ,url("/images/contact.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -359,7 +363,7 @@ input{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("images/hab1.jpg");
+    ,url("/images/hab1.jpg");
     background-position: center center;
     background-size: cover;
     padding:50px;
@@ -373,7 +377,7 @@ background-image: linear-gradient(
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)
 )
-    ,url("images/restaurante.jpg");
+    ,url("/images/restaurante.jpg");
     background-position: center center;
     background-size: cover;
     padding:50px;
@@ -388,7 +392,7 @@ background-image: linear-gradient(
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("images/28.png");
+    ,url("/images/28.png");
     background-position: center center;
     background-size: cover;
     padding:50px;
@@ -425,7 +429,7 @@ background-image: linear-gradient(
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("images/pastas.jpg");
+    ,url("/images/pastas.jpg");
     background-position: center center;
     background-size: cover;
     padding:50px;
@@ -439,7 +443,7 @@ background-image: linear-gradient(
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)
 )
-    ,url("images/mariscos.jpg");
+    ,url("/images/mariscos.jpg");
     background-position: center center;
     background-size: cover;
     padding:50px;
@@ -455,7 +459,7 @@ background-image: linear-gradient(
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("images/carnes.jpg");
+    ,url("/images/carnes.jpg");
     background-position: center center;
     background-size: cover;
     padding:50px;
@@ -470,7 +474,7 @@ background-image: linear-gradient(
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("images/bien.jpg");
+    ,url("/images/bien.jpg");
     background-position: center center;
     background-size: cover;
     padding:50px;
@@ -484,7 +488,7 @@ background-image: linear-gradient(
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("images/postres.jpg");
+    ,url("/images/postres.jpg");
     background-position: center center;
     background-size: cover;
     padding:50px;
