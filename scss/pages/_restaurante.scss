@@ -1,0 +1,40 @@
+
+#platos{
+    background-color: rgb(30, 30, 30);
+    color: #f6f9fc;
+    text-align: center;
+
+
+    .container{
+    padding: 100px 5px;
+    }
+
+    h2{
+    margin-bottom: 70px;
+    font-size: 3em;
+    color: $color-principal;
+    }
+}
+.nuestros-platos h3{
+    color: $color-principal;
+}
+
+@media (min-width: 1700px){
+
+
+    #platos h3{
+        display: block;
+        margin: 30px 8px;
+    }
+
+    #platos .platos-5{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    #platos .carta-5{
+        padding: 200px 100px;
+        background-size: cover 140px;
+    }
+}

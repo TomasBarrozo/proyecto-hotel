@@ -1,0 +1,43 @@
+
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.5,);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    background-color:$color-secundario;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+
+    a{
+    text-decoration: none;
+    color: white;
+    }
+
+        &:hover {
+        background-color:$color-principal;
+        transform: scale(1.1);
+        }
+}
+
+/* Boton contacto-habitaciones */
+
+.bg-btn{
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.5,);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    background-color:$color-secundario;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn:hover{
+    background-color:white ;
+    color: $color-secundario;
+}

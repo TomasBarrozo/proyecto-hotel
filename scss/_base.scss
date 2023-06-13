@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color:#f6f9fc
+}
+
+$color-principal: rgb(74, 112, 182);
+$color-secundario: rgb(24, 87, 139);
+
+label {
+    font-size:25px;
+}
+
+input{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}

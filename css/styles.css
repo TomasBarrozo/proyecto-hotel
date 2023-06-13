@@ -1,549 +1,367 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
 
-body{
-    font-family: sans-serif;
-    margin: 0;
-    background-color:#f6f9fc
-}
-
-
-.nav-link{
-    color:rgb(74, 112, 182);
-}
-.nav-link:hover{
-    color:#0a2540;
-    transform: scale(1.1);
-}
-.navbar-brand  {
-    color:rgb(74, 112, 182);;;
-}
-.navbar-brand:hover{
-    color:#0a2540;
-}
-
-.footer{
-    background-color: rgb(74, 112, 182)
-}
-
-.footer li i{
-    color:#EEF0F2;
-}
-
-.footer p{
-    color: #EEF0F2
-}
-.footer h4{
-    color:#dbdbdb
-}
-.footer ul li{
-    color: #EEF0F2
-}
-
-.habitaciones h3{
-    color: rgb(74, 112, 182);
-}
-
-.iconos h2{
-    color: rgb(74, 112, 182) ;
-}
-
-.nuestros-platos h3{
-    color: rgb(74, 112, 182);
-}
-
-.bg-btn{
-    font-size: 1em;
-    font-weight: bold;
-    border-radius: 10px;
-    border: 0.5px solid rgba(0, 0, 0, 0.5,);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-    background-color:rgb(24, 87, 139);
-    color: white;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-.btn:hover{
-    background-color:white ;
-    color: rgb(24, 87, 139);
-}
-
-
-
-.ciudad h4{
-    color: rgb(74, 112, 182);
-}
-
-
-.servicios h4{
-    color: rgb(74, 112, 182);
-}
-
-.opiniones h3{
-    color: rgb(74, 112, 182);
-}
-
-.contacto h2{
-    color: rgb(74, 112, 182);
-}
-
-.contacto ul li a{
-    text-decoration: none;
-    color: black;
-}
-
-#banner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    color: white;
-    background-image: linear-gradient(
-        0deg, 
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../images/hotel-entrada.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    }
-
-#banner h1{
-        font-size: 3em
-}
-
-#banner button{
-    font-size: 1.4em;
-    margin: 10px;
-
-}
-
-#banner-2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    color: white;
-    background-image: linear-gradient(
-        0deg, 
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../images/restaurante.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    }
-#banner-2 h2{
-    font-size: 3em
-}
-
-#banner-3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    color: white;
-    background-image: linear-gradient(
-        0deg, 
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../images/info.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    }
-
-#banner-3 h2{
-    font-size: 3em
-}
-
-#banner-4{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    color: white;
-    background-image: linear-gradient(
-        0deg, 
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../images/hab.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    }
-
-#banner-4 h2{
-    font-size: 3em
-}
-
-#banner-5{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    color: white;
-    background-image: linear-gradient(
-        0deg, 
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../images/contact.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-
-}
-
-#banner-5 h2{
-    font-size: 3em
-}
-
-/*Contacto*/
-
-
-.container-form{
-    width: 100%;
-    max-width: 1100px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 50px;
-    margin-top: 230px;
-    height: 60vh;
-
-}
-
-.container-form h3{
-    font-size: 30px;
-}
-
-.container-form h2{
-    margin-bottom: 15px;
-    font-size: 35px
-}
-
-.container-form a{
-    font-size: 16px;
-    display: inline-block;
-    text-decoration: none;
-    width: 100%;
-    margin-bottom: 10px;
-    color: black;
-    font-weight: 400;
-}
-.container-form a i{
-    color: rgb(74, 112, 182);
-    margin-right: 10px;
-}
-
-.container-form input{
-    width: 100%;
-    padding: 15px 10px;
-    font-size: 15px;
-    border: 1px solid #dbdbdb;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    outline: 0px;
-}
-
-.container-form textarea{
-    max-width: 530px;
-    min-width: 530px;
-    min-height: 140px;
-    max-height: 150px;
-}
-
-.container-form .btn-enviar{
-    padding: 15px;
-    font-size: 1em;
-    outline: 0px;
-    color: white;
-    padding: 10px 10px;
-    border: 0.5px solid rgba(0, 0, 0, 0.5,);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-    background-color:rgb(24, 87, 139);
-    border-radius: 3px;
-    cursor: pointer;
-    transition: all 300ms ease;
-    margin-top: 12px;
-}
-
-.container-form .btn-enviar:hover{
-    background-color:rgb(74, 112, 182);
-    transform: scale(1.1);}
-
-button{
-    font-size: 1em;
-    font-weight: bold;
-    padding: 10px 10px;
-    border-radius: 10px;
-    border: 0.5px solid rgba(0, 0, 0, 0.5,);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-    background-color:rgb(24, 87, 139);
-    color: white;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-button a{
-    text-decoration: none;
-    color: white;
-
-}
-
-button:hover {
-    background-color:rgb(74, 112, 182);
-    transform: scale(1.1);
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f6f9fc;
 }
 
 label {
-    font-size:25px;
+  font-size: 25px;
 }
 
-input{
-    font-size: 1em;
-    font-weight: bold;
-    padding: 10px 10px;
-    border-radius: 10px;
+input {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 10px;
+  border-radius: 10px;
 }
 
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+#banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hotel-entrada.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#banner h1 {
+  font-size: 3em;
+}
+#banner button {
+  font-size: 1.4em;
+  margin: 10px;
+}
+
+#banner-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/restaurante.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#banner-2 h2 {
+  font-size: 3em;
+}
+
+#banner-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/info.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#banner-3 h2 {
+  font-size: 3em;
+}
+
+#banner-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hab.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#banner-4 h2 {
+  font-size: 3em;
+}
+
+#banner-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#banner-5 h2 {
+  font-size: 3em;
+}
+
+/* cartas-index */
+.carta:first-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hab1.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 12px;
+  border-radius: 20px;
+}
+
+.carta:nth-child(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/restaurante.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 12px;
+  border-radius: 20px;
+}
+
+.carta:nth-child(3) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/28.png");
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 12px;
+  border-radius: 20px;
+}
+
+/*cartas-restaurant*/
+.carta-5:first-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pastas.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 12px;
+  border-radius: 20px;
+}
+
+.carta-5:nth-child(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/mariscos.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 12px;
+  border-radius: 20px;
+}
+
+.carta-5:nth-child(3) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/carnes.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 12px;
+  border-radius: 20px;
+}
+
+.carta-5:nth-child(4) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bien.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 12px;
+  border-radius: 20px;
+}
+
+.carta-5:nth-child(5) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/postres.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 12px;
+  border-radius: 20px;
+}
+
+.footer {
+  background-color: rgb(74, 112, 182);
+}
+.footer p {
+  color: #EEF0F2;
+}
+.footer h4 {
+  color: #dbdbdb;
+}
+.footer ul li, .footer li i {
+  color: #EEF0F2;
+}
+
+.nav-link {
+  color: rgb(74, 112, 182);
+}
+.nav-link:hover {
+  color: #0a2540;
+  transform: scale(1.1);
+}
+
+.navbar-brand {
+  color: rgb(74, 112, 182);
+}
+.navbar-brand:hover {
+  color: #0a2540;
+}
+
+button {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  background-color: rgb(24, 87, 139);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+button:hover {
+  background-color: rgb(74, 112, 182);
+  transform: scale(1.1);
+}
+
+/* Boton contacto-habitaciones */
+.bg-btn {
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  background-color: rgb(24, 87, 139);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: rgb(24, 87, 139);
+}
 
 .color-titulo {
-    color:rgb(74, 112, 182);
+  color: rgb(74, 112, 182);
 }
 
-#introducciones{
-    background-color: rgb(30, 30, 30);
-    text-align: center;
+#introducciones {
+  background-color: rgb(30, 30, 30);
+  text-align: center;
+}
+#introducciones .container {
+  padding: 100px 5px;
+}
+#introducciones h2 {
+  color: rgb(74, 112, 182);
+  margin: 20px;
+  font-size: 3em;
+}
+#introducciones h3 {
+  color: rgb(187, 198, 219);
+}
+#introducciones p {
+  color: #f6f9fc;
+  display: none;
 }
 
-#introducciones .container{
-    padding: 100px 5px;
+@media (min-width: 1280px) {
+  #introducciones .carta {
+    padding: 130px;
+    background-size: cover 140px;
+  }
+  #introducciones .intro-3 {
+    display: flex;
+    justify-content: center;
+  }
+  #introducciones p {
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+.habitaciones h3 {
+  color: rgb(74, 112, 182);
 }
 
-
-#introducciones h2{
-    color: rgb(74, 112, 182);
-    margin: 20px;
-    font-size: 3em;
+.iconos h2 {
+  color: rgb(74, 112, 182);
 }
 
-#introducciones h3{
-    color:rgb(187, 198, 219);
+#platos {
+  background-color: rgb(30, 30, 30);
+  color: #f6f9fc;
+  text-align: center;
+}
+#platos .container {
+  padding: 100px 5px;
+}
+#platos h2 {
+  margin-bottom: 70px;
+  font-size: 3em;
+  color: rgb(74, 112, 182);
 }
 
-#introducciones p{
-    color: #f6f9fc;
-    display: none;
+.nuestros-platos h3 {
+  color: rgb(74, 112, 182);
 }
 
-.carta:first-child{
-    background-image: linear-gradient(
-        0deg, 
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../images/hab1.jpg");
-    background-position: center center;
-    background-size: cover;
-    padding:50px;
-    margin:12px;
-    border-radius: 20px;
+@media (min-width: 1700px) {
+  #platos h3 {
+    display: block;
+    margin: 30px 8px;
+  }
+  #platos .platos-5 {
+    display: flex;
+    justify-content: center;
+  }
+  #platos .carta-5 {
+    padding: 200px 100px;
+    background-size: cover 140px;
+  }
+}
+.ciudad h4 {
+  color: rgb(74, 112, 182);
 }
 
-.carta:nth-child(2){
-background-image: linear-gradient(
-    0deg, 
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)
-)
-    ,url("../images/restaurante.jpg");
-    background-position: center center;
-    background-size: cover;
-    padding:50px;
-    margin:12px;
-    border-radius: 20px;
+.ciudad h3 {
+  color: rgb(24, 87, 139);
 }
 
-
-.carta:nth-child(3){
-    background-image: linear-gradient(
-        0deg, 
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../images/28.png");
-    background-position: center center;
-    background-size: cover;
-    padding:50px;
-    margin:12px;
-    border-radius: 20px;
-
+.servicios h4 {
+  color: rgb(74, 112, 182);
 }
 
-
-/*restaurant*/
-
-#platos{
-    background-color: rgb(30, 30, 30);
-    color: #f6f9fc;
-    text-align: center;
+.servicios h3 {
+  color: rgb(24, 87, 139);
 }
 
-#platos .container{
-    padding: 100px 5px;
+.opiniones h3 {
+  color: rgb(74, 112, 182);
 }
 
-
-#platos h2{
-    margin-bottom: 70px;
-    font-size: 3em;
-    color: rgb(74, 112, 182) ;
+.contacto h2 {
+  color: rgb(74, 112, 182);
 }
 
-
-
-.carta-5:first-child{
-    background-image: linear-gradient(
-        0deg, 
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../images/pastas.jpg");
-    background-position: center center;
-    background-size: cover;
-    padding:50px;
-    margin:12px;
-    border-radius: 20px;
+.contacto ul li a {
+  text-decoration: none;
+  color: black;
 }
 
-.carta-5:nth-child(2){
-background-image: linear-gradient(
-    0deg, 
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)
-)
-    ,url("../images/mariscos.jpg");
-    background-position: center center;
-    background-size: cover;
-    padding:50px;
-    margin:12px;
-    border-radius: 20px;
-}
-
-
-
-.carta-5:nth-child(3){
-    background-image: linear-gradient(
-        0deg, 
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../images/carnes.jpg");
-    background-position: center center;
-    background-size: cover;
-    padding:50px;
-    margin:12px;
-    border-radius: 20px;
-
-}
-
-.carta-5:nth-child(4){
-    background-image: linear-gradient(
-        0deg, 
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../images/bien.jpg");
-    background-position: center center;
-    background-size: cover;
-    padding:50px;
-    margin:12px;
-    border-radius: 20px;
-
-}
-.carta-5:nth-child(5){
-    background-image: linear-gradient(
-        0deg, 
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("../images/postres.jpg");
-    background-position: center center;
-    background-size: cover;
-    padding:50px;
-    margin:12px;
-    border-radius: 20px;
-}
-
-/* Contenedor */
-
-.container{
-    max-width: 1400px;
-    margin: auto;
-}
-
-@media (min-width: 720px){
-
-    #introducciones .intro-3{
-        display: flex;
-        justify-content: center;
-        
-    }
-    #introducciones p{
-        display: block;
-        margin-bottom: 30px;
-    }
-
-    #introducciones .carta{
-        padding: 130px;
-        background-size: cover 140px;
-    }
-
-    #platos .platos-5{
-        display: flex;
-        justify-content: center;
-    }
-
-    #platos h3{
-        display: block;
-        margin: 30px 8px;
-    }
-
-    #platos .carta-5{
-        padding: 200px 100px;
-        background-size: cover 140px;
-    }
-
-    #opiniones .opiniones-3{
-        display: flex;
-        justify-content: center;
-    }
-    #opiniones .op-img{
-        padding: 130px 300px;
-        background-size: cover
-
-    }
-
-}
-
+/*# sourceMappingURL=styles.css.map */

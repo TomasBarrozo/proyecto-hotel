@@ -1,0 +1,113 @@
+/* cartas-index */
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../images/hab1.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding:50px;
+    margin:12px;
+    border-radius: 20px;
+}
+
+.carta:nth-child(2){
+background-image: linear-gradient(
+    0deg, 
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+)
+    ,url("../images/restaurante.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding:50px;
+    margin:12px;
+    border-radius: 20px;
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../images/28.png");
+    background-position: center center;
+    background-size: cover;
+    padding:50px;
+    margin:12px;
+    border-radius: 20px;
+}
+
+/*cartas-restaurant*/
+
+.carta-5:first-child{
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../images/pastas.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding:50px;
+    margin:12px;
+    border-radius: 20px;
+}
+
+.carta-5:nth-child(2){
+background-image: linear-gradient(
+    0deg, 
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+)
+    ,url("../images/mariscos.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding:50px;
+    margin:12px;
+    border-radius: 20px;
+}
+
+.carta-5:nth-child(3){
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../images/carnes.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding:50px;
+    margin:12px;
+    border-radius: 20px;
+}
+
+.carta-5:nth-child(4){
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../images/bien.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding:50px;
+    margin:12px;
+    border-radius: 20px;
+}
+.carta-5:nth-child(5){
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../images/postres.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding:50px;
+    margin:12px;
+    border-radius: 20px;
+}

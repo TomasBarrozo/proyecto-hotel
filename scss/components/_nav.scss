@@ -1,0 +1,16 @@
+.nav-link{
+    color:$color-principal;
+    
+    &:hover{
+    color:#0a2540;
+    transform: scale(1.1);
+    }
+}
+
+.navbar-brand {
+    color:$color-principal;
+
+    &:hover{
+    color:#0a2540;
+    }
+}
