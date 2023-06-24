@@ -41,7 +41,7 @@ input {
   background-position: center center;
 }
 #banner h1 {
-  font-size: 3em;
+  font-size: 4em;
 }
 #banner button {
   font-size: 1.4em;
@@ -61,8 +61,8 @@ input {
   background-size: cover;
   background-position: center center;
 }
-#banner-2 h2 {
-  font-size: 3em;
+#banner-2 h1 {
+  font-size: 4em;
 }
 
 #banner-3 {
@@ -78,8 +78,8 @@ input {
   background-size: cover;
   background-position: center center;
 }
-#banner-3 h2 {
-  font-size: 3em;
+#banner-3 h1 {
+  font-size: 4em;
 }
 
 #banner-4 {
@@ -95,8 +95,8 @@ input {
   background-size: cover;
   background-position: center center;
 }
-#banner-4 h2 {
-  font-size: 3em;
+#banner-4 h1 {
+  font-size: 4em;
 }
 
 #banner-5 {
@@ -112,8 +112,8 @@ input {
   background-size: cover;
   background-position: center center;
 }
-#banner-5 h2 {
-  font-size: 3em;
+#banner-5 h1 {
+  font-size: 4em;
 }
 
 /* cartas-index */

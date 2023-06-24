@@ -49,8 +49,8 @@
 
     <main>
         <section id="banner-5">
-            <h2>¿Tienes alguna pregunta?</h2>
-            <h3>Rellená el formulario y nos comunicaremos con usted a la brevedad</h3>
+            <h1>¿Tienes alguna pregunta?</h1>
+            <h2>Rellená el formulario y nos comunicaremos con usted a la brevedad</h2>
         </section>
 
         <!--Información de contacto-->
@@ -82,22 +82,27 @@
                         <form action="">
                             <div class=" text-center text-lg-start mb-2 mt-4">
                                 <label for="nombre">Nombre</label>
-                                <input type="text" class="form-control" name="nombre" id="nombre" placeholder="ej: Gabriel">
+                                <input type="text" class="form-control" name="nombre" id="nombre" placeholder="ej: Gabriel"  required minlength="2" maxlength="20" >
                             </div> 
 
                             <div class="text-center text-lg-start mb-2">
                                 <label for="apellido">Apellido</label>
-                                <input type="text" class="form-control" name="apellido" id="apellido" placeholder="ej: Pacheco">
+                                <input type="text" class="form-control" name="apellido" id="apellido" placeholder="ej: Pacheco" required minlength="2" maxlength="25">
+                            </div> 
+
+                            <div class="text-center text-lg-start mb-2">
+                                <label for="celular">Celular</label>
+                                <input type="number" class="form-control" name="celular" id="celular" placeholder="ej: +54 1121210101" required minlength="10" maxlength="15">
                             </div> 
 
                             <div class="text-center text-lg-start mb-2">
                                 <label for="correo">Correo electrónico</label>
-                                <input type="text" class="form-control" name="correo" id="correo" placeholder="ej: Gabrielpacheco@gmail.com">
+                                <input type="email" class="form-control" name="correo" id="correo" placeholder="ej: Gabrielpacheco@gmail.com" required minlength="10" maxlength="40" > 
                             </div> 
 
                             <div class="text-center text-lg-start mb-2">
                                 <label for="mensaje">Dejanos tu mensaje</label>
-                                <textarea name="mensaje" id="mensaje" class="form-control" placeholder="Ej: Hola ¿Tienen reservas disponibles para el lunes?"></textarea>
+                                <textarea name="mensaje" id="mensaje" class="form-control" placeholder="Ej: Hola ¿Tienen reservas disponibles para el lunes?" required minlength="6" maxlength="500"></textarea>
                             </div>
 
                             <div class="mb-4 mt-3 text-center text-lg-start">
